@@ -52,6 +52,7 @@
       <li><a href="#therapies">Методи и практики</a></li>
       <li><a href="#news">Събития и новини</a></li>
       <li><a href="#contact">Контакти</a></li>
+      <li class="nav-cta"><a href="#" data-survey>Безплатна консултация</a></li>
     </ul>
   </div>
 
@@ -59,6 +60,8 @@
   <section class="hero" id="hero">
     <div class="hero-box">
       <h1>Център „Ариадна“ <span>индивидуална грижа за вашата душа</span></h1>
+      <button type="button" class="btn btn-white hero-cta" data-survey><i class="fa-solid fa-heart-pulse"></i> Безплатна консултация</button>
+      <div class="hero-note">Кратък въпросник · отнема по-малко от минута</div>
     </div>
   </section>
 
@@ -413,6 +416,16 @@
     </div>
     <div class="copy">Copyright © 2026 Център „Ариадна“. Всички права запазени.</div>
   </footer>
+
+  <!-- ===== ПЛАВАЩ БУТОН + ВЪПРОСНИК ===== -->
+  <button type="button" class="fab" data-survey><i class="fa-solid fa-comments"></i> Безплатна консултация</button>
+  <div class="sv-overlay" id="svOverlay" aria-hidden="true">
+    <div class="sv-modal" role="dialog" aria-modal="true" aria-labelledby="svTitle">
+      <button type="button" class="sv-close" id="svClose" aria-label="Затвори">&times;</button>
+      <div class="sv-progress"><div class="sv-bar" id="svBar"></div></div>
+      <div class="sv-body" id="svBody"></div>
+    </div>
+  </div>
 
   <script src="js/main.js"></script>
 </body>
